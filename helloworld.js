@@ -1,3 +1,3 @@
-console.log('hello world');
-console.log('byebye');
-console.log('Foo bar');
+for (let i = 0; i < 10; i++) {
+    console.log(`Hello World ${i}`);
+}
