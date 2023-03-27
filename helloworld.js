@@ -1,6 +1,8 @@
 console.log('Start');
-for (let i = 0; i < 10; i++) {
+let i = 0;
+while (i < 10) {
     console.log(`Hello World ${i + 1}`);
     console.log(`========`);
+    i++;
 }
 console.log('The end!');
